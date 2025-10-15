@@ -64,7 +64,24 @@ p{
   background: #172c66;
   border: 5px solid #f582ae;
   
+}.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 10;
 }
+
+.body-offset {
+  padding-top: 56px;
+}
+
 
 .absolute {
   background: #ff8ba7;
