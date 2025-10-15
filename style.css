@@ -1,16 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html {
-  background: #fef6e4;
-  font-family: sans-serif;
-  color: #fef6e4;
-  font-size: 14px;
+html, body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #111;
 }
 
+]
 .container {
   background: #8bd3dd;
   width: 300px;
