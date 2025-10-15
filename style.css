@@ -95,11 +95,36 @@ p{
   color: #272343;
   border: 5px solid #272343;
   
+.section {
+  margin: 24px auto;
+  max-width: 960px;
+  padding: 0 16px 24px;
 }
 
-.sticky {
-  background: #232946;
-  color: #b8c1ec;
-  border: 5px solid #eebbc3;
-  
+.sticky-title {
+  position: sticky;
+  top: 56px;
+  background: #fff;
+  padding: 8px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
 }
+
+.box-stack {
+  position: relative;
+  height: 160px;
+  margin: 24px 0;
+}
+
+.box-a, .box-b, .box-c {
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  border: 1px solid #ddd;
+  background: #f3f4f6;
+}
+
+.box-a { top: 16px; left: 16px; z-index: 1; }
+.box-b { top: 36px; left: 64px; z-index: 2; }
+.box-c { top: 56px; left: 112px; z-index: 3; }
+
