@@ -10,6 +10,15 @@ html, body {
   color: #111;
 }
 
+.stage {
+  position: relative;
+  border: 1px dashed #bbb;
+  background: #f8f9fa;
+  padding: 24px;
+  min-height: 220px;
+}
+
+
 ]
 .container {
   background: #8bd3dd;
